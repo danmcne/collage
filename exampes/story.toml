@@ -1,1 +1,15 @@
+# A manifest: images in reading order, each with an optional crop tolerance
+# and caption. Paths are relative to this file.
 
+[[image]]
+path = "../imgs/01.jpg"
+caption = "Arrival at the station"
+
+[[image]]
+path = "../imgs/02.jpg"
+caption = "The long walk up the hill"
+crop = 0.05          # this one may lose up to 5% of a side
+
+[[image]]
+path = "../imgs/03.jpg"
+caption = "Evening light on the harbour"
